@@ -126,6 +126,21 @@ document
         const keyword =
             this.value.toLowerCase();
 
+        const hero =
+            document.querySelector(".hero-banner");
+
+        const categories =
+            document.querySelector(".category-grid");
+
+        if (keyword.trim() !== "") {
+
+            categories.style.display = "none";
+
+        } else {
+
+            categories.style.display = "";
+        }
+
         const filtered =
             allProducts.filter(product => {
 
