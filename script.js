@@ -89,12 +89,9 @@ function renderCategories() {
     const categories = [
         "Dress",
         "Atasan",
-        "Celana",
-        "Rok",
-        "Tas",
-        "Sepatu",
-        "Jumpsuit",
-        "Outer"
+        "One Set / Over All",
+        "Celana (Kosong)",
+        
     ];
 
     container.innerHTML = "";
